@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Afrikaans/English Keyboard</string>
+    <string name="ime_name">Afrikaans/English Keyboard</string>
+    <string name="settings_title">Keyboard Settings</string>
+
+    <!-- Subtypes shown in Android language/keyboard picker -->
+    <string name="subtype_english">English (US)</string>
+    <string name="subtype_afrikaans">Afrikaans (ZA)</string>
+
+    <!-- Preferences -->
+    <string name="pref_category_language">Language</string>
+    <string name="pref_language_title">Active language</string>
+    <string name="pref_category_keyboard">Keyboard</string>
+    <string name="pref_height_title">Keyboard height</string>
+    <string name="pref_height_summary">Drag to adjust how tall the keyboard appears (200–380 dp)</string>
+    <string name="pref_haptic_title">Haptic feedback</string>
+    <string name="pref_haptic_summary">Vibrate briefly on each key press</string>
+    <string name="pref_spell_check_title">Spell-check suggestions</string>
+    <string name="pref_spell_check_summary">Show word suggestions above the keyboard</string>
+    <string name="pref_numeric_row_title">Number row</string>
+    <string name="pref_numeric_row_summary">Show 1–0 row above the letter rows</string>
+    <string name="pref_category_about">About</string>
+    <string name="pref_version_title">Version</string>
+
+    <!-- Setup screen -->
+    <string name="setup_title">Setup</string>
+    <string name="btn_enable">1. Enable keyboard</string>
+    <string name="btn_set_default">2. Set as default</string>
+
+    <!-- Language arrays -->
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>Afrikaans</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>english</item>
+        <item>afrikaans</item>
+    </string-array>
+</resources>

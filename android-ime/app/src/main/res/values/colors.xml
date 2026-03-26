@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core palette -->
+    <color name="accent">#007AFF</color>
+    <color name="accent_dark">#0051CC</color>
+    <color name="error">#FF3B30</color>
+    <color name="success">#34C759</color>
+
+    <!-- Keyboard surface -->
+    <color name="keyboard_background">#CDD1D6</color>
+    <color name="candidates_background">#D8DADE</color>
+    <color name="divider">#B0B4BA</color>
+
+    <!-- Keys -->
+    <color name="key_background">#FFFFFF</color>
+    <color name="key_fn_background">#ADB3BB</color>
+    <color name="key_return_background">#007AFF</color>
+    <color name="key_active_background">#5BAEFF</color>
+    <color name="key_pressed_background">#E5E5EA</color>
+
+    <!-- Text on keys -->
+    <color name="key_text">#1C1C1E</color>
+    <color name="key_fn_text">#1C1C1E</color>
+    <color name="key_return_text">#FFFFFF</color>
+
+    <!-- Material theme seeds -->
+    <color name="md_theme_light_primary">#007AFF</color>
+    <color name="md_theme_light_background">#F2F2F7</color>
+    <color name="md_theme_light_surface">#FFFFFF</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_onBackground">#1C1C1E</color>
+    <color name="md_theme_light_onSurface">#1C1C1E</color>
+</resources>

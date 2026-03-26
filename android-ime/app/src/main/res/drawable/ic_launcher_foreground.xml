@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Launcher foreground: a simple keyboard icon in white.
+  Place this over the blue background defined in ic_launcher.xml.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Keyboard body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22,36 Q18,36 18,40 L18,68 Q18,72 22,72 L86,72 Q90,72 90,68 L90,40 Q90,36 86,36 Z" />
+
+    <!-- Key dots — row 1 -->
+    <path android:fillColor="@color/accent"
+        android:pathData="M26,44 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0Z" />
+    <path android:fillColor="@color/accent"
+        android:pathData="M36,44 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0Z" />
+    <path android:fillColor="@color/accent"
+        android:pathData="M46,44 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0Z" />
+    <path android:fillColor="@color/accent"
+        android:pathData="M56,44 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0Z" />
+    <path android:fillColor="@color/accent"
+        android:pathData="M66,44 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0Z" />
+    <path android:fillColor="@color/accent"
+        android:pathData="M76,44 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0Z" />
+
+    <!-- Key dots — row 2 -->
+    <path android:fillColor="@color/accent"
+        android:pathData="M31,54 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0Z" />
+    <path android:fillColor="@color/accent"
+        android:pathData="M41,54 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0Z" />
+    <path android:fillColor="@color/accent"
+        android:pathData="M51,54 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0Z" />
+    <path android:fillColor="@color/accent"
+        android:pathData="M61,54 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0Z" />
+    <path android:fillColor="@color/accent"
+        android:pathData="M71,54 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0Z" />
+
+    <!-- Space bar -->
+    <path
+        android:fillColor="@color/accent"
+        android:pathData="M36,62 Q34,62 34,64 L34,66 Q34,68 36,68 L72,68 Q74,68 74,66 L74,64 Q74,62 72,62 Z" />
+
+</vector>

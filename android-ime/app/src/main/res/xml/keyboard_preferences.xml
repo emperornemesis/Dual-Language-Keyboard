@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/pref_category_language">
+        <ListPreference
+            android:key="active_language"
+            android:title="@string/pref_language_title"
+            android:summary="%s"
+            android:entries="@array/language_entries"
+            android:entryValues="@array/language_values"
+            android:defaultValue="english"
+            app:useSimpleSummaryProvider="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_keyboard">
+        <SeekBarPreference
+            android:key="keyboard_height_dp"
+            android:title="@string/pref_height_title"
+            android:summary="@string/pref_height_summary"
+            android:defaultValue="260"
+            android:min="200"
+            android:max="380"
+            app:showSeekBarValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="haptic_feedback"
+            android:title="@string/pref_haptic_title"
+            android:summary="@string/pref_haptic_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="show_spell_check"
+            android:title="@string/pref_spell_check_title"
+            android:summary="@string/pref_spell_check_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="numeric_row"
+            android:title="@string/pref_numeric_row_title"
+            android:summary="@string/pref_numeric_row_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_about">
+        <Preference
+            android:title="@string/pref_version_title"
+            android:summary="1.0.0" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
